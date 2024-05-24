@@ -59,7 +59,7 @@
                 <pathelement location="${target}/classes"/>
                 <pathelement location="${target}/tests"/>
             </classpath>
-            <batchtest todir="${reports}">
+            <batchtest  todir="${reports}">
                 <fileset dir="${test}/java" includes="*.java"/>
             </batchtest>
         </junit>
